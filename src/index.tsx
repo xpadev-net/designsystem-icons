@@ -44,3 +44,5 @@ export * from "./Family";
 export * from "./FamilyOutlined";
 export * from "./FastTrack";
 export * from "./FastTrackOutlined";
+export * from "./FillableCard";
+export * from "./FillableCardOutlined";
