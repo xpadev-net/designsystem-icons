@@ -114,3 +114,5 @@ export * from "./Tax";
 export * from "./TaxOutlined";
 export * from "./Transaction";
 export * from "./TransactionOutlined";
+export * from "./Update";
+export * from "./UpdateOutlined";
