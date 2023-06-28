@@ -1,0 +1,13 @@
+._icon_1i009_1 {
+  position: relative;
+}
+
+._popup_1i009_5 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 10px;
+  z-index: 1;
+  filter: drop-shadow(0 6px 4px rgba(0, 0, 0, 0.2));
+}
