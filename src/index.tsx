@@ -64,3 +64,5 @@ export * from "./Information";
 export * from "./InformationOutlined";
 export * from "./Invoice";
 export * from "./InvoiceOutlined";
+export * from "./Itinerary";
+export * from "./ItineraryOutlined";
