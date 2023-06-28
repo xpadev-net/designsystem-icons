@@ -68,3 +68,5 @@ export * from "./Itinerary";
 export * from "./ItineraryOutlined";
 export * from "./Laws";
 export * from "./LawsOutlined";
+export * from "./Luggage";
+export * from "./LuggageOutlined";
