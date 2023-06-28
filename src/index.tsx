@@ -102,3 +102,5 @@ export * from "./PublicOffering";
 export * from "./PublicOfferingOutlined";
 export * from "./SealCertificate";
 export * from "./SealCertificateOutlined";
+export * from "./Search";
+export * from "./SearchOutlined";
