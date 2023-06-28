@@ -32,3 +32,5 @@ export * from "./Copy";
 export * from "./CopyOutlined";
 export * from "./Departure";
 export * from "./DepartureOutlined";
+export * from "./Documents";
+export * from "./DocumentsOutlined";
