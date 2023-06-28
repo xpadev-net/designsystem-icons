@@ -42,3 +42,5 @@ export * from "./Expenditure";
 export * from "./ExpenditureOutlined";
 export * from "./Family";
 export * from "./FamilyOutlined";
+export * from "./FastTrack";
+export * from "./FastTrackOutlined";
