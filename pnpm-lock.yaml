@@ -11,6 +11,9 @@ devDependencies:
   '@babel/preset-env':
     specifier: ^7.21.5
     version: 7.21.5(@babel/core@7.21.8)
+  '@babel/preset-react':
+    specifier: ^7.22.5
+    version: 7.22.5(@babel/core@7.21.8)
   '@rollup/plugin-babel':
     specifier: ^6.0.3
     version: 6.0.3(@babel/core@7.21.8)(rollup@3.22.0)
@@ -1144,6 +1147,26 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
     dev: true
 
+  /@babel/plugin-transform-react-display-name@7.22.5(@babel/core@7.21.8):
+    resolution: {integrity: sha512-PVk3WPYudRF5z4GKMEYUrLjPl38fJSKNaEOkFuoprioowGuWN6w2RKznuFNSlJx7pzzXXStPUnNSOEO0jL5EVw==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.21.8
+      '@babel/helper-plugin-utils': 7.22.5
+    dev: true
+
+  /@babel/plugin-transform-react-jsx-development@7.22.5(@babel/core@7.21.8):
+    resolution: {integrity: sha512-bDhuzwWMuInwCYeDeMzyi7TaBgRQei6DqxhbyniL7/VG4RSS7HtSL2QbY4eESy1KJqlWt8g3xeEBGPuo+XqC8A==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.21.8
+      '@babel/plugin-transform-react-jsx': 7.22.5(@babel/core@7.21.8)
+    dev: true
+
   /@babel/plugin-transform-react-jsx-self@7.22.5(@babel/core@7.21.8):
     resolution: {integrity: sha512-nTh2ogNUtxbiSbxaT4Ds6aXnXEipHweN9YRgOX/oNXdf0cCrGn/+2LozFa3lnPV5D90MkjhgckCPBrsoSc1a7g==}
     engines: {node: '>=6.9.0'}
@@ -1176,6 +1199,17 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-jsx': 7.22.5(@babel/core@7.21.8)
       '@babel/types': 7.22.5
+    dev: true
+
+  /@babel/plugin-transform-react-pure-annotations@7.22.5(@babel/core@7.21.8):
+    resolution: {integrity: sha512-gP4k85wx09q+brArVinTXhWiyzLl9UpmGva0+mWyKxk6JZequ05x3eUcIUE+FyttPKJFRRVtAvQaJ6YF9h1ZpA==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.21.8
+      '@babel/helper-annotate-as-pure': 7.22.5
+      '@babel/helper-plugin-utils': 7.22.5
     dev: true
 
   /@babel/plugin-transform-regenerator@7.22.5(@babel/core@7.21.8):
@@ -1396,6 +1430,21 @@ packages:
       '@babel/plugin-transform-dotall-regex': 7.22.5(@babel/core@7.21.8)
       '@babel/types': 7.22.5
       esutils: 2.0.3
+    dev: true
+
+  /@babel/preset-react@7.22.5(@babel/core@7.21.8):
+    resolution: {integrity: sha512-M+Is3WikOpEJHgR385HbuCITPTaPRaNkibTEa9oiofmJvIsrceb4yp9RL9Kb+TE8LznmeyZqpP+Lopwcx59xPQ==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.21.8
+      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-validator-option': 7.22.5
+      '@babel/plugin-transform-react-display-name': 7.22.5(@babel/core@7.21.8)
+      '@babel/plugin-transform-react-jsx': 7.22.5(@babel/core@7.21.8)
+      '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.21.8)
+      '@babel/plugin-transform-react-pure-annotations': 7.22.5(@babel/core@7.21.8)
     dev: true
 
   /@babel/preset-typescript@7.22.5(@babel/core@7.21.8):

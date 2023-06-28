@@ -5,10 +5,10 @@ import replace from '@rollup/plugin-replace';
 import image from '@rollup/plugin-image';
 import postcss from 'rollup-plugin-postcss';
 import typescript from "@rollup/plugin-typescript";
-import pkg from "./package.json";
+import pkg from "./package.json" assert { type: "json" };
 
 export default {
-  input: 'src/index.ts',
+  input: 'src/index.tsx',
   output: {
     file: `dist/index.js`,
     format: 'umd',
