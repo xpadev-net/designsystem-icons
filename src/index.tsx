@@ -36,3 +36,5 @@ export * from "./Documents";
 export * from "./DocumentsOutlined";
 export * from "./Download";
 export * from "./DownloadOutlined";
+export * from "./EApplication";
+export * from "./EApplicationOutlined";
