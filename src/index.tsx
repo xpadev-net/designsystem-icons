@@ -104,3 +104,5 @@ export * from "./SealCertificate";
 export * from "./SealCertificateOutlined";
 export * from "./Search";
 export * from "./SearchOutlined";
+export * from "./Smartphone";
+export * from "./SmartphoneOutlined";
