@@ -20,3 +20,5 @@ export * from "./BankAccount";
 export * from "./BankAccountOutlined";
 export * from "./Certification";
 export * from "./CertificationOutlined";
+export * from "./CertificationWithSeal";
+export * from "./CertificationWithSealOutlined";
