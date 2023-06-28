@@ -46,3 +46,5 @@ export * from "./FastTrack";
 export * from "./FastTrackOutlined";
 export * from "./FillableCard";
 export * from "./FillableCardOutlined";
+export * from "./Health";
+export * from "./HealthOutlined";
