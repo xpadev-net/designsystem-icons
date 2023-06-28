@@ -106,3 +106,5 @@ export * from "./Search";
 export * from "./SearchOutlined";
 export * from "./Smartphone";
 export * from "./SmartphoneOutlined";
+export * from "./Specialist";
+export * from "./SpecialistOutlined";
