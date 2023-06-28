@@ -96,3 +96,5 @@ export * from "./PersonalComputer";
 export * from "./PersonalComputerOutlined";
 export * from "./Printer";
 export * from "./PrinterOutlined";
+export * from "./PrivacyProtection";
+export * from "./PrivacyProtectionOutlined";
