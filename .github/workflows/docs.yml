@@ -32,6 +32,7 @@ jobs:
           git fetch --all
           git switch storybook
           mv -f ./storybook-static ./docs/
+          touch ./docs/.nojekyll
           git add .
           git commit -m "docs" -n
           git push -f origin storybook
