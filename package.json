@@ -1,6 +1,6 @@
 {
   "name": "@xpadev-net/designsystem-icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Icon materials provided by the Digital Agency converted into components for React",
   "main": "dist/bundle.js",
   "types": "dist/bundle.d.ts",
