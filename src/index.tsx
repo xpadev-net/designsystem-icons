@@ -24,3 +24,5 @@ export * from "./CertificationWithSeal";
 export * from "./CertificationWithSealOutlined";
 export * from "./Child";
 export * from "./ChildOutlined";
+export * from "./CodeReader";
+export * from "./CodeReaderOutlined";
