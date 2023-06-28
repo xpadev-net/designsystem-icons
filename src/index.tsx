@@ -98,3 +98,5 @@ export * from "./Printer";
 export * from "./PrinterOutlined";
 export * from "./PrivacyProtection";
 export * from "./PrivacyProtectionOutlined";
+export * from "./PublicOffering";
+export * from "./PublicOfferingOutlined";
