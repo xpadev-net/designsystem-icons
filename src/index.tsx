@@ -76,3 +76,5 @@ export * from "./Me";
 export * from "./MeOutlined";
 export * from "./Medicine";
 export * from "./MedicineOutlined";
+export * from "./Menu";
+export * from "./MenuOutlined";
