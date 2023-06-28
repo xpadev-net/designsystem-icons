@@ -110,3 +110,5 @@ export * from "./Specialist";
 export * from "./SpecialistOutlined";
 export * from "./Stamp";
 export * from "./StampOutlined";
+export * from "./Tax";
+export * from "./TaxOutlined";
