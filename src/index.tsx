@@ -94,3 +94,5 @@ export * from "./Pension";
 export * from "./PensionOutlined";
 export * from "./PersonalComputer";
 export * from "./PersonalComputerOutlined";
+export * from "./Printer";
+export * from "./PrinterOutlined";
