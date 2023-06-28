@@ -26,3 +26,5 @@ export * from "./Child";
 export * from "./ChildOutlined";
 export * from "./CodeReader";
 export * from "./CodeReaderOutlined";
+export * from "./Complete";
+export * from "./CompleteOutlined";
