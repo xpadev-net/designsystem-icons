@@ -8,3 +8,5 @@ export * from "./ArrowDown";
 export * from "./ArrowDownOutlined";
 export * from "./ArrowLeft";
 export * from "./ArrowLeftOutlined";
+export * from "./ArrowRight";
+export * from "./ArrowRightOutlined";
