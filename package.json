@@ -2,8 +2,8 @@
   "name": "@xpadev-net/designsystem-icons",
   "version": "0.0.2",
   "description": "Icon materials provided by the Digital Agency converted into components for React",
-  "main": "dist/bundle.js",
-  "types": "dist/bundle.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx rimraf dist&&npm run build:ts&&npm run build:dts",
     "build:ts": "rollup -c rollup.config.mjs",
