@@ -28,3 +28,5 @@ export * from "./CodeReader";
 export * from "./CodeReaderOutlined";
 export * from "./Complete";
 export * from "./CompleteOutlined";
+export * from "./Copy";
+export * from "./CopyOutlined";
