@@ -1,5 +1,7 @@
 # designsystem-icons
 
+[GitHub](https://github.com/xpadev-net/designsystem-icons) [npm](https://www.npmjs.com/package/@xpadev-net/designsystem-icons)
+
 デジタル庁が提供している[行政文脈向けのアイコンセット](https://www.digital.go.jp/policies/servicedesign/designsystem/Illustration_Icons/)をReactコンポーネント化したライブラリです
 
 [イラストレーション・アイコン素材利用規約](https://www.digital.go.jp/policies/servicedesign/designsystem/Illustration_Icons/terms_of_use/) の元で提供されているアイコンの構造を一部Reactコンポーネント用に修正したものです
@@ -34,3 +36,7 @@ const Component = () => {
   );
 };
 ```
+
+## ライセンス
+アイコンはデジタル庁の [イラストレーション・アイコン素材利用規約](https://www.digital.go.jp/policies/servicedesign/designsystem/Illustration_Icons/terms_of_use/) の元で提供されています  
+このライブラリ自体はMITライセンスで公開しています  
