@@ -1,4 +1,4 @@
-name: DevBuild
+name: Docs
 
 on:
   push:
@@ -30,8 +30,8 @@ jobs:
           git config user.email "github-actions@xpadev.net"
           git config user.name "github-actions"
           git fetch --all
-          git checkout docs
+          git checkout storybook
           mv -f ./storybook-static ./docs/
           git add .
           git commit -m "docs" -n
-          git push -f origin docs
+          git push -f origin storybook
