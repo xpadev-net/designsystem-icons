@@ -86,3 +86,5 @@ export * from "./Municipality";
 export * from "./MunicipalityOutlined";
 export * from "./NewWindow";
 export * from "./NewWindowOutlined";
+export * from "./Notification";
+export * from "./NotificationOutlined";
