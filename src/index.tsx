@@ -72,3 +72,5 @@ export * from "./Luggage";
 export * from "./LuggageOutlined";
 export * from "./Mailing";
 export * from "./MailingOutlined";
+export * from "./Me";
+export * from "./MeOutlined";
