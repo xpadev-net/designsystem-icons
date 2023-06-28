@@ -78,3 +78,5 @@ export * from "./Medicine";
 export * from "./MedicineOutlined";
 export * from "./Menu";
 export * from "./MenuOutlined";
+export * from "./Money";
+export * from "./MoneyOutlined";
