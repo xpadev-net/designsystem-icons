@@ -70,3 +70,5 @@ export * from "./Laws";
 export * from "./LawsOutlined";
 export * from "./Luggage";
 export * from "./LuggageOutlined";
+export * from "./Mailing";
+export * from "./MailingOutlined";
