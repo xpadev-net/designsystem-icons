@@ -12,3 +12,5 @@ export * from "./ArrowRight";
 export * from "./ArrowRightOutlined";
 export * from "./ArrowUp";
 export * from "./ArrowUpOutlined";
+export * from "./Attention";
+export * from "./AttentionOutlined";
