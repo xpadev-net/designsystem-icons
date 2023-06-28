@@ -34,3 +34,5 @@ export * from "./Departure";
 export * from "./DepartureOutlined";
 export * from "./Documents";
 export * from "./DocumentsOutlined";
+export * from "./Download";
+export * from "./DownloadOutlined";
