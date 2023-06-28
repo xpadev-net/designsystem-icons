@@ -80,3 +80,5 @@ export * from "./Menu";
 export * from "./MenuOutlined";
 export * from "./Money";
 export * from "./MoneyOutlined";
+export * from "./MotherAndChild";
+export * from "./MotherAndChildOutlined";
