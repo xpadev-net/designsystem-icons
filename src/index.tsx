@@ -14,3 +14,5 @@ export * from "./ArrowUp";
 export * from "./ArrowUpOutlined";
 export * from "./Attention";
 export * from "./AttentionOutlined";
+export * from "./Authentication";
+export * from "./AuthenticationOutlined";
