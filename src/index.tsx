@@ -92,3 +92,5 @@ export * from "./Password";
 export * from "./PasswordOutlined";
 export * from "./Pension";
 export * from "./PensionOutlined";
+export * from "./PersonalComputer";
+export * from "./PersonalComputerOutlined";
