@@ -54,3 +54,5 @@ export * from "./History";
 export * from "./HistoryOutlined";
 export * from "./House";
 export * from "./HouseOutlined";
+export * from "./Immunization";
+export * from "./ImmunizationOutlined";
