@@ -2,7 +2,7 @@ name: DevBuild
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
