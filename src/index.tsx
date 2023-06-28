@@ -66,3 +66,5 @@ export * from "./Invoice";
 export * from "./InvoiceOutlined";
 export * from "./Itinerary";
 export * from "./ItineraryOutlined";
+export * from "./Laws";
+export * from "./LawsOutlined";
