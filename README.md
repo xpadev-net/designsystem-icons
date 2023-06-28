@@ -1,8 +1,8 @@
 # designsystem-icons
 
-デジタル庁が提供している行政文脈向けのアイコンセットをReactコンポーネント化したライブラリです
+デジタル庁が提供している[行政文脈向けのアイコンセット](https://www.digital.go.jp/policies/servicedesign/designsystem/Illustration_Icons/)をReactコンポーネント化したライブラリです
 
-アイコンは [イラストレーション・アイコン素材利用規約](https://www.digital.go.jp/policies/servicedesign/designsystem/Illustration_Icons/terms_of_use/) の元で提供されているものをReactコンポーネント用に構造を一部修正したものです
+[イラストレーション・アイコン素材利用規約](https://www.digital.go.jp/policies/servicedesign/designsystem/Illustration_Icons/terms_of_use/) の元で提供されているアイコンの構造を一部Reactコンポーネント用に修正したものです
 
 ## インストール
 
@@ -19,7 +19,8 @@ pnpm add @xpadev-net/designsystem-icons
 ## 使い方
 各アイコンはnamed exportされています  
 アイコン名は元ファイル名に基づいており、末尾が `hoge_fill.icon` の場合は `HogeIcon` 、 `huga_line.svg` の場合は `HugaOutlinedIcon` となります  
-propsは `className` と `color` を指定でき、 `className` は svg に直接適用され、`color` は `style` プロパティの ます
+
+propsは `className` と `color` を指定でき、 `className` は svg に直接適用され、`color` は `style` の `fill` プロパティとして適用されます
 
 ## 例
 ```tsx
