@@ -16,3 +16,5 @@ export * from "./Attention";
 export * from "./AttentionOutlined";
 export * from "./Authentication";
 export * from "./AuthenticationOutlined";
+export * from "./BankAccount";
+export * from "./BankAccountOutlined";
