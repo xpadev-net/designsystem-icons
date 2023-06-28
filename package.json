@@ -33,8 +33,8 @@
     "url": "https://github.com/xpadev-net/designsystem-icons/issues"
   },
   "files": [
-    "dist/bundle.js",
-    "dist/bundle.d.ts"
+    "dist/index.js",
+    "dist/index.d.ts"
   ],
   "homepage": "https://xpadev-net.github.io/designsystem-icons/",
   "license": "MIT",
