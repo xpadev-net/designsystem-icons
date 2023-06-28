@@ -6,3 +6,5 @@ export * from "./Arrival";
 export * from "./ArrivalOutlined";
 export * from "./ArrowDown";
 export * from "./ArrowDownOutlined";
+export * from "./ArrowLeft";
+export * from "./ArrowLeftOutlined";
