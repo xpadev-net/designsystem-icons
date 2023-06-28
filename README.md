@@ -22,7 +22,7 @@ pnpm add @xpadev-net/designsystem-icons
 各アイコンはnamed exportされています  
 アイコン名は元ファイル名に基づいており、末尾が `hoge_fill.icon` の場合は `HogeIcon` 、 `huga_line.svg` の場合は `HugaOutlinedIcon` となります  
 
-propsは `className` と `color` を指定でき、 `className` は svg に直接適用され、`color` は `style` の `fill` プロパティとして適用されます
+propsは `className` と `color`、 `style` を指定でき、 `className` と `style` は svg に直接適用され、`color` は `style` の `fill` プロパティとして適用されます
 
 ## 例
 ```tsx
