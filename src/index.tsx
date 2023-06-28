@@ -84,3 +84,5 @@ export * from "./MotherAndChild";
 export * from "./MotherAndChildOutlined";
 export * from "./Municipality";
 export * from "./MunicipalityOutlined";
+export * from "./NewWindow";
+export * from "./NewWindowOutlined";
