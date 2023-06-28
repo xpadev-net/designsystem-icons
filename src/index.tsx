@@ -18,3 +18,5 @@ export * from "./Authentication";
 export * from "./AuthenticationOutlined";
 export * from "./BankAccount";
 export * from "./BankAccountOutlined";
+export * from "./Certification";
+export * from "./CertificationOutlined";
