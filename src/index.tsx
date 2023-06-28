@@ -62,3 +62,5 @@ export * from "./Income";
 export * from "./IncomeOutlined";
 export * from "./Information";
 export * from "./InformationOutlined";
+export * from "./Invoice";
+export * from "./InvoiceOutlined";
