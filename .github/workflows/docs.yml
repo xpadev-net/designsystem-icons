@@ -30,7 +30,7 @@ jobs:
           git config user.email "github-actions@xpadev.net"
           git config user.name "github-actions"
           git fetch --all
-          git checkout storybook
+          git switch storybook
           mv -f ./storybook-static ./docs/
           git add .
           git commit -m "docs" -n
