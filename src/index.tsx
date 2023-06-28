@@ -60,3 +60,5 @@ export * from "./Inbox";
 export * from "./InboxOutlined";
 export * from "./Income";
 export * from "./IncomeOutlined";
+export * from "./Information";
+export * from "./InformationOutlined";
