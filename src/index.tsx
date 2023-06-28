@@ -88,3 +88,5 @@ export * from "./NewWindow";
 export * from "./NewWindowOutlined";
 export * from "./Notification";
 export * from "./NotificationOutlined";
+export * from "./Password";
+export * from "./PasswordOutlined";
