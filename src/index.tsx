@@ -22,3 +22,5 @@ export * from "./Certification";
 export * from "./CertificationOutlined";
 export * from "./CertificationWithSeal";
 export * from "./CertificationWithSealOutlined";
+export * from "./Child";
+export * from "./ChildOutlined";
