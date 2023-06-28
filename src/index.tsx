@@ -82,3 +82,5 @@ export * from "./Money";
 export * from "./MoneyOutlined";
 export * from "./MotherAndChild";
 export * from "./MotherAndChildOutlined";
+export * from "./Municipality";
+export * from "./MunicipalityOutlined";
