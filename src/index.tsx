@@ -108,3 +108,5 @@ export * from "./Smartphone";
 export * from "./SmartphoneOutlined";
 export * from "./Specialist";
 export * from "./SpecialistOutlined";
+export * from "./Stamp";
+export * from "./StampOutlined";
