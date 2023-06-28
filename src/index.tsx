@@ -112,3 +112,5 @@ export * from "./Stamp";
 export * from "./StampOutlined";
 export * from "./Tax";
 export * from "./TaxOutlined";
+export * from "./Transaction";
+export * from "./TransactionOutlined";
