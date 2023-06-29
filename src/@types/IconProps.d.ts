@@ -1,7 +1,5 @@
-import { CSSProperties } from "react";
+import { SVGProps } from "react";
 
-export type IconProps = {
-  className?: string;
+export type IconProps = SVGProps<SVGSVGElement> & {
   color?: string;
-  style?: CSSProperties;
 };

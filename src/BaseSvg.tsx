@@ -6,7 +6,13 @@ type props = IconProps & {
   children: ReactNode;
 };
 
-export const BaseSvg = ({ children, className, color, style }: props) => {
+export const BaseSvg = ({
+  children,
+  className,
+  color,
+  style,
+  ...props
+}: props) => {
   return (
     <svg
       width="24"
@@ -16,6 +22,7 @@ export const BaseSvg = ({ children, className, color, style }: props) => {
       xmlns="http://www.w3.org/2000/svg"
       className={`${Styles.icon} ${className}`}
       style={{ ...(style ?? {}), fill: color }}
+      {...props}
     >
       {children}
     </svg>
