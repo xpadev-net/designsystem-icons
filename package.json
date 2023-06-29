@@ -1,6 +1,6 @@
 {
   "name": "@xpadev-net/designsystem-icons",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Icon materials provided by the Digital Agency converted into components for React",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
