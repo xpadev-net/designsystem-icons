@@ -21,7 +21,7 @@ jobs:
         run: |
           npm i -g pnpm
           pnpm install
-      - name: generate dev build
+      - name: generate storybook
         run: pnpm build-storybook
       - name: Create new commit
         env:
