@@ -31,7 +31,8 @@ jobs:
           git config user.name "github-actions"
           git fetch --all
           git switch storybook
-          mv -f ./storybook-static ./docs/
+          rm -rf ./docs
+          mv -f ./storybook-static ./docs
           touch ./docs/.nojekyll
           git add .
           git commit -m "docs" -n
