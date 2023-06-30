@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import Styles from "./default.module.css";
 import { IconProps } from "@/@types/IconProps";
 
 type props = IconProps & {
@@ -18,10 +17,10 @@ export const BaseSvg = ({
       width="24"
       height="24"
       viewBox="0 0 24 24"
-      fill="none"
+      fill="#1a1a1c"
       xmlns="http://www.w3.org/2000/svg"
-      className={`${Styles.icon} ${className}`}
-      style={{ ...(style ?? {}), fill: color }}
+      className={className}
+      style={{ fill: color, ...(style ?? {}) }}
       {...props}
     >
       {children}
